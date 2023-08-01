@@ -74,4 +74,12 @@ fn main() {
     println!("This material is just `{}`.", material);
     bedazzle(&mut material);
     println!("Wow! Now the material is `{}`!", material);
+
+    fn exercise_1() {
+        // Use as many approaches as you can to make it work
+        let x = String::from("hello, world");
+        let y = &x;
+        println!("Exercise 1: {},{}", x, y);
+    }
+    exercise_1();
 }
