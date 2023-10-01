@@ -8,5 +8,5 @@ fn main() {
 }
 
 fn print_str(s: &String) {
-    println!("{}", s)
+    println!("{}", *s)
 }

@@ -8,5 +8,5 @@ fn main() {
 }
 
 fn push_str(s: &mut String) {
-    s.push_str("world")
+    s.push_str("world");
 }
