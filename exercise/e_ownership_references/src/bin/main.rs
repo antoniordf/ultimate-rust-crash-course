@@ -28,8 +28,7 @@ fn main() {
     // `cargo run apple`.  Hint: use `.push_str("s")` on the mutable String reference to add an "s".
 
     fn change(s: &mut String) {
-        if s.ends_with("s") {
-        } else {
+        if !s.ends_with("s") {
             s.push_str("s");
         }
     }
